@@ -1,0 +1,22 @@
+.head {
+  margin-top: 109px;
+  margin-left: 99px;
+  font-size: 26px;
+}
+
+.sub-head {
+  margin-left: 99px;
+  font-size: 14px;
+  margin-top: 9px;
+}
+
+.content-image {
+  width: 1341px;
+  height: 578px;
+  margin-top: 40px;
+}
+
+.top-line {
+  border: 1px solid rgb(139, 139, 139);
+  margin-top: 25px;
+}

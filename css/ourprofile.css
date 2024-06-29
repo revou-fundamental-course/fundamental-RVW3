@@ -1,0 +1,26 @@
+/*Bagian our profile dari website*/
+.profile-header {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bitget-profile,
+.TR-profile,
+.AC-profile,
+.AVS-profile,
+.binance-profile
+ {
+  width: 115px;
+  border-radius: 100px;
+}
