@@ -1,0 +1,84 @@
+.portofolio-color {
+  background-color: bisque;
+  padding-top:1px;
+  padding-bottom: 40px;
+  background-color: light;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.portofolio-header {
+  color: black;
+  margin-top: 35px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.portofolio-exercise {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.description {
+  color: rgb(114, 114, 114);
+  margin-top: 0;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+header p u, a {
+  color: rgb(54, 54, 54);
+}
+
+.portofolio-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.youtube-copy,
+.discord-sidebar {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.youtube-copy {
+  margin-left: 85px;
+  margin-right: 0;
+  border: 2px solid rgb(1, 192, 192);
+  border-radius: 20px;
+}
+
+.portofolio1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.youtube-copy-description {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 85px;
+  margin-top: 5px;
+}
+
+.discord-sidebar {
+  margin-left: 0;
+  margin-right: 90px;
+  border: 2px solid rgb(1, 192, 192);
+  border-radius: 20px;
+}
+
+.portofolio2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discord-sidebar-copy-description {
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 85px;
+  margin-top: 5px;
+}

@@ -1,3 +1,4 @@
+
 .head {
   margin-top: 109px;
   margin-left: 99px;
@@ -11,12 +12,8 @@
 }
 
 .content-image {
-  width: 1341px;
-  height: 578px;
+  width: 1333px;
+  height: 586px;
   margin-top: 40px;
 }
 
-.top-line {
-  border: 1px solid rgb(139, 139, 139);
-  margin-top: 25px;
-}

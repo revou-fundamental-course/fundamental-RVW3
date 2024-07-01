@@ -1,0 +1,13 @@
+.footer-container {
+  border-top: 1px solid rgb(95, 95, 95);
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 80px;
+}
+
+.developer {
+  position: absolute;
+  right: 45px;
+  font-size: 15px;
+}
