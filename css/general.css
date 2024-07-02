@@ -1,7 +1,8 @@
 /*Bagian yang Menackup keseluruhan style dari HTML*/
 body {
   font-family: Roboto, Arial;
-  background-color: hsl(214, 20%, 85%);
+  background-color: #DECDBB;
+  color: #6D5B47;
 }
 
 a {

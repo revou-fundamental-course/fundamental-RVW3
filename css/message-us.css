@@ -137,11 +137,12 @@
   border: 1px solid rgb(0, 0, 0);
   background-color: lightblue;
   border-radius: 5px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 45px;
   padding-left: 10px;
-  padding-right: 110px;
+  padding-right: 150px;
   margin-right: 70px;
+  color: black;
 }
 
 .keterangan-diri span {

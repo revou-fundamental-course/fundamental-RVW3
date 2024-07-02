@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/social-media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
   </head>
   </head>
   <body>
@@ -24,46 +28,33 @@
       </div>
 
       <nav>
-          <button class="button1">
-            <a href="#home">Home</a>
-          </button>
-
-          <button class="button2">
-            <a href="#ourprofile">Our Profile</a>
-          </button>
-
-          <button class="button3">
-            <a href="#portofolio">Portofolio</a>
-          </button>
-
-          <button class="button4">
-            <a href="#message-us">Message Us</a>
-          </button>
-
-          <button class="button5">
-            <a href="#social-media">Social Media</a>
-          </button>
+        <ul>
+          <li><a href="#home" class="link">Home</a></li>
+          <li><a href="#our-profile" class="link">Our Profile</a></li>
+          <li><a href="#portofolio" class="link">Portofolio</a></li>
+          <li><a href="#message-us" class="link">Message Us</a></li>
+          <li><a href="#social-media" class="link">Social Media</a></li>
+        </ul>
       </nav>
     </header>
 
 
     <section id="home">
-      <div class="head">Hi <span id="name"></span>, Welcome To Website</div>
-
-      <div class="sub-head">Ini adalah website latihan pertama</div>
-
       <div>
         <img
           class="content-image" 
-          src="assets/Default_Type_of_Image_Artistic_rendering_of_a_surreal_landscap_2.jpg"
-          alt="Pemandangan koin crypto dan gunung berapi aktif yang membentuk 
-               awan berwarna merah dan birudan puing-puing mesir kuno">
+          src="assets/Home.png">
+          <div class="sambutan">
+            <div class="head">Hi <span id="name"></span>, Welcome To Website</div>
+
+            <div class="sub-head">Ini adalah website latihan pertama</div>
+          </div>
       </div>
       <hr class="top-line">
     </section>
 
 
-    <section id="ourprofile">
+    <section id="our-profile">
       <div>
       <header class="profile-header">
         <h2>Our Headquarter</h2>
@@ -249,7 +240,7 @@
       </div>
     </section>
 
-    <foooter class="footer-container">
+    <foooter class="footer-container" >
       <div class="developer">Created by Ricki</div>
     </foooter>
 
