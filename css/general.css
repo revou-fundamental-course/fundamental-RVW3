@@ -1,8 +1,11 @@
 /*Bagian yang Menackup keseluruhan style dari HTML*/
 body {
   font-family: Roboto, Arial;
+  background-color: hsl(214, 20%, 85%);
 }
 
 a {
   text-decoration: none;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&display=swap");

@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portofolio Website</title>
+
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
@@ -11,32 +13,45 @@
     <link rel="stylesheet" href="css/portofolio.css">
     <link rel="stylesheet" href="css/message-us.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/social-media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
   </head>
   <body>
     <header class="header-container">
       <div>
         <img class="logo-image" src="assets/channels4_profile.jpg">
       </div>
+
       <nav>
           <button class="button1">
             <a href="#home">Home</a>
-            </button>
-            <button class="button2">
-              <a href="#ourprofile">Our Profile</a>
-            </button>
-            <button class="button3">
-              <a href="#portofolio">Portofolio</a>
-            </button>
-            <button class="button4">
-              <a href="#message-us">Message Us</a>
-            </button>
+          </button>
+
+          <button class="button2">
+            <a href="#ourprofile">Our Profile</a>
+          </button>
+
+          <button class="button3">
+            <a href="#portofolio">Portofolio</a>
+          </button>
+
+          <button class="button4">
+            <a href="#message-us">Message Us</a>
+          </button>
+
+          <button class="button5">
+            <a href="#social-media">Social Media</a>
+          </button>
       </nav>
     </header>
 
 
     <section id="home">
-      <div class="head">Hi Ricki, Welcome To Website</div>
+      <div class="head">Hi <span id="name"></span>, Welcome To Website</div>
+
       <div class="sub-head">Ini adalah website latihan pertama</div>
+
       <div>
         <img
           class="content-image" 
@@ -47,12 +62,15 @@
       <hr class="top-line">
     </section>
 
+
     <section id="ourprofile">
       <div>
       <header class="profile-header">
         <h2>Our Headquarter</h2>
       </header>
+
       <div class="profile-image">
+
         <div class="profile">
           <div>
             <a href="https://www.binance.com/en" target="_blank">
@@ -61,6 +79,7 @@
           </div>
           <div class="profile-name1">Binance</div>
         </div>
+
         <div class="profile">
           <div>
             <a href="https://www.youtube.com/@TimothyRonald" target="_blank">
@@ -71,6 +90,7 @@
           </div>
           <div>Timothy Ronald</div>
         </div>
+
         <div class="profile">
           <div>
             <a href="https://www.youtube.com/@akademicrypto" target="_blank">
@@ -81,6 +101,7 @@
           </div>
           <div>Akademi Crypto</div>
         </div>
+
         <div class="profile">
           <div>
               <a href="https://x.com/Kalimasada97" target="_blank">
@@ -91,6 +112,7 @@
           </div>
           <div class="profile-name4">Kalimasada(AVS)</div>
         </div>
+
         <div class="profile">
           <div>
             <a href="https://www.bitget.com/" target="_blank">
@@ -100,11 +122,14 @@
           <div>Bitget</div>
         </div>
       </div>
+      
       <hr class="bottom-line">
       </div>
     </section>
 
+
     <section class="portofolio-color" id="portofolio">
+
       <header>
         <p class="portofolio-header">My Portofolio</p>
         <h2 class="portofolio-exercise">Practice Website</h2>
@@ -112,8 +137,10 @@
            <br>Menggunakan bahasa pemrograman <u class="text-underline"><a href="https://www.w3schools.com/html/">HTML</a> dan 
             <a href="https://www.w3schools.com/css/default.asp">CSS</a></u></p>
       </header>
+
       <main>
         <div class="portofolio-image">
+
         <div class="portofolio1">
           <div>
             <img class="youtube-copy" src="assets/Screenshot (1)(1).png">
@@ -123,6 +150,7 @@
             <br>di layoting, display grid dan flex, dan position absolute, relative, dan fixed.
           </div>
         </div>
+
         <div class="portofolio2">
           <div>
             <img class="discord-sidebar" src="assets/Screenshot (3).png">
@@ -132,55 +160,100 @@
             <br> meningkatakan pengetahuan saya tentang style position
           </div>
         </div>
+
         </div>
       </main>
     </section>
 
 
     <section id="message-us">
+
       <header>
         <h1 class="messageus-header">Message Us</h1>
       </heder>
+
       <div class="data-konten">
+
         <section class="isi-konten">
-        <form class="formulir" action="http://127.0.0.1:5500/Revou%20Fundamentas%20Course/test.html" target="_blank">
+        <form class="formulir" name="form" onsubmit="return validateForm()">
         <div class="data-diri">
+
           <div class="data-nama">
             <label for="nama">Nama <span class="titik-satu">:</span></label>
-          <input type="text" id="nama" placeholder="Nama">
+            <input type="text" id="nama" placeholder="Nama" name="input-nama">
+            <p id="error-name"></p>
           </div>
+
           <div class="data-tanggal">
             <label for="tanggal-lahir">Tanggal Lahir <span class="titik-dua">:</span></label>
-            <input type="date" id="tanggal-lahir"> 
+            <input type="date" id="tanggal-lahir" name="input-tanggal">
+            <p id="error-date"></p> 
           </div>
+
           <div class="data-gender">
             <label for="kelamin, kelamin1">Jenis Kelamin <span class="titik-tiga">:</span></label> 
-            <input type="radio" id="kelamin" name="t1">
+            <input type="radio" id="kelamin" name="input-gender" value="Laki-laki">
             <span class="LL">Laki-laki</span>
-            <input type="radio" id="kelamin1" name="t1">
+            <input type="radio" id="kelamin1" name="input-gender" value="Perempuan">
             <span class="PP">Perempuan</span>
-           </div>
+            <p id="error-gender"></p>
+          </div>
+
           <div class="data-pesan">
             <label for="pesan">Pesan <span class="titik-empat">:</span></label>
-            <input type="text" placeholder="Pesan" id="pesan">
+            <input type="text" placeholder="Pesan" id="pesan" name="input-pesan">
           </div>
+
           <div>
             <button type="submit" class="submit">Submit</button>
+          </div>
+        </div>
           </section>
           </form>
 
-          <section class="keterangan-diri">
+          <section class="keterangan-diri" >
+
             <div><span>Current time</span> : Sundy June 07 2024  12:04:28 GMT+7</div>
-            <div><span>Nama</span> : Ricki Viriananda</div>
-            <div><span>Tanggal Lahir</span>: 24/03/2009</div>
-            <div><span>Jenis Kelamin</span> : Laki-laki</div>
-            <div><span>Pesan</span>   : Sedang belajar bahasa pemrograman HTML, CSS, dan JS</div>
+
+            <div><span>Nama</span> : <span id="hasil-nama"></span></div>
+
+            <div><span>Tanggal Lahir</span> : <span id="hasil-tanggal"></span></div>
+
+            <div><span>Jenis Kelamin</span> : <span id="hasil-kelamin"></span></div>
+
+            <div><span>Pesan</span> : <span id="hasil-pesan"></span></div>
+
           </section>
           </div>
+
+    </section>
+
+      <section id="social-media">
+
+      <header>
+        <h1 class="social-media-header">My Social Media</h1>
+      </header>
+
+      <div class="wrapper">
+
+        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+
+        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+        <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+
+        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+
+      </div>
     </section>
 
     <foooter class="footer-container">
       <div class="developer">Created by Ricki</div>
     </foooter>
+
+    <script src="js/name.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>

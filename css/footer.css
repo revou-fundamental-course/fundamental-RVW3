@@ -4,6 +4,7 @@
   align-items: center;
   position: relative;
   height: 80px;
+  background-color: white;
 }
 
 .developer {
@@ -11,3 +12,4 @@
   right: 45px;
   font-size: 15px;
 }
+

@@ -1,5 +1,4 @@
 #message-us {
-  background-color: bisque;
   padding-top: 20px;
   padding-bottom: 60px;
 }
@@ -90,23 +89,40 @@
   padding-left: 8px;
 }
 
-.submit {
-  font-size: 17px;
-  padding: 12px 213px 12px 213px;
-  margin-top: 15px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 30px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-  background-color: bisque;
-  transition: color, background-color 0.3s;
-}
 
 .submit:hover {
-  color: bisque;
+  color: hsl(214, 20%, 85%);
   background-color: black;
 }
 
+.submit {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 12px 213px 12px 213px;
+  background-color: hsl(214, 20%, 85%);
+  border: 2px solid black;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  margin-top: 15px;
+}
+
+.submit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #111827;
+  border-radius: inherit;
+  translate: 6px 6px;
+  transition: 0.25s;
+  z-index: -1;
+}
+
+.submit:hover::after {
+  translate: 0;
+}
 
 #kelamin {
   accent-color: blue;
@@ -134,4 +150,11 @@
 
 .keterangan-diri div {
   line-height: 30px;
+}
+
+#hasil-nama,
+#hasil-tanggal,
+#hasil-kelamin,
+#hasil-pesan {
+  font-weight: 500;
 }
