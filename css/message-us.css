@@ -5,88 +5,39 @@
 
 .messageus-header {
   margin-top: 20px;
-  margin-left: 80px;
-  margin-bottom: 60px;
 }
 
 .data-konten {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .formulir {
-  margin-left: 80px;
   margin-right: 0;
 }
 
-.data-diri {
-  font-size: 15px;
-}
-
-.titik-satu {
-  margin-left: 54px;
-  margin-right: -1px;
-}
-
-.titik-dua {
-  margin-left: 3px;
-}
-
-.titik-empat {
-  margin-left: 50px;
-}
 .radio {
   margin-right: 0px;
 }
 
-.data-nama {
-  margin-bottom: 6px;
-}
-
 #nama {
-  font-size: 15px;
-  padding-right: 180px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
   border-radius: 5px;
   border: 1px solid gray;
-}
-
-.data-tanggal {
-  margin-bottom: 1px;
 }
 
 #tanggal-lahir {
-  font-size: 15px;
-  width: 373px;
-  padding-top: 8px;
-  padding-bottom: 8px;
   border-radius: 5px;
   border: 1px solid gray;
-  padding-left: 3px;
-}
-
-.data-gender {
-  margin-top: 5px;
-  margin-bottom: 7px;
 }
 
 .LL,
 .PP {
   margin-bottom: 0;
-  font-size: 15px;
 }
 
 #pesan {
-  font-size: 15px;
   border-radius: 3px;
   border: 1px solid gray;
-  width: 367px;
-  padding-bottom: 80px;
-  padding-top: 6px;
-  padding-left: 8px;
 }
 
 
@@ -96,17 +47,14 @@
 }
 
 .submit {
-  font-size: 17px;
   font-weight: bold;
   letter-spacing: 1px;
-  padding: 12px 213px 12px 213px;
   background-color: hsl(214, 20%, 85%);
   border: 2px solid black;
   border-radius: 30px;
   cursor: pointer;
   position: relative;
   transition: all 0.3s;
-  margin-top: 15px;
 }
 
 .submit::after {
@@ -133,24 +81,14 @@
 }
 
 .keterangan-diri {
-  font-size: 15px;
   border: 1px solid rgb(0, 0, 0);
   background-color: lightblue;
   border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 45px;
-  padding-left: 10px;
-  padding-right: 150px;
-  margin-right: 70px;
   color: black;
 }
 
 .keterangan-diri span {
   font-weight: bold;
-}
-
-.keterangan-diri div {
-  line-height: 30px;
 }
 
 #hasil-nama,

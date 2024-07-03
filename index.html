@@ -15,10 +15,14 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/social-media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media/max600.css">
+    <link rel="stylesheet" href="css/media/min600.css">
+    <link rel="stylesheet" href="css/media/min768.css">
+    <link rel="stylesheet" href="css/media/min992.css">
+    <link rel="stylesheet" href="css/media/min1200.css">
   </head>
   </head>
   <body>
@@ -27,29 +31,37 @@
         <img class="logo-image" src="assets/channels4_profile.jpg">
       </div>
 
-      <nav>
-        <ul>
-          <li><a href="#home" class="link">Home</a></li>
-          <li><a href="#our-profile" class="link">Our Profile</a></li>
-          <li><a href="#portofolio" class="link">Portofolio</a></li>
-          <li><a href="#message-us" class="link">Message Us</a></li>
-          <li><a href="#social-media" class="link">Social Media</a></li>
-        </ul>
+      <nav class="navigation">
+        <button class="button1">
+          <a href="#home">Home</a>
+        </button>
+
+        <button class="button2">
+            <a href="#ourprofile">Our Profile</a>
+        </button>
+
+        <button class="button3">
+            <a href="#portofolio">Portofolio</a>
+        </button>
+
+        <button class="button4">
+            <a href="#message-us">Message Us</a>
+        </button>
       </nav>
     </header>
 
 
     <section id="home">
-      <div class="head">Hi <span id="name"></span>, Welcome To Website</div>
-
-      <div class="sub-head">Ini adalah website latihan pertama</div>
-
       <div>
-        <img
-          class="content-image" 
-          src="assets/Default_Type_of_Image_Artistic_rendering_of_a_surreal_landscap_2.jpg"
-          alt="Pemandangan koin crypto dan gunung berapi aktif yang membentuk 
-               awan berwarna merah dan birudan puing-puing mesir kuno">
+        <div>
+          <img
+            class="content-image" 
+            src="assets/Home.png">
+        </div>
+        <div>
+          <div class="head">Hi <span id="name"></span>, Welcome To Website</div>
+          <div class="sub-head">Ini adalah website latihan pertama</div>
+        </div>
       </div>
       <hr class="top-line">
     </section>
@@ -63,48 +75,46 @@
 
       <div class="profile-image">
 
-        <div class="profile">
-          <div>
-            <a href="https://www.binance.com/en" target="_blank">
-              <img alt="gambar logo dari Binance" class="binance-profile" src="assets/channels4_profile (3).jpg">
-            </a>
+          <div class="profile">
+            <div>
+              <a href="https://www.binance.com/en" target="_blank">
+                <img alt="gambar logo dari Binance" class="binance-profile" src="assets/channels4_profile (3).jpg">
+              </a>
+            </div>
+            <div class="profile-name1">Binance</div>
           </div>
-          <div class="profile-name1">Binance</div>
-        </div>
-
-        <div class="profile">
-          <div>
-            <a href="https://www.youtube.com/@TimothyRonald" target="_blank">
-            <img alt="foto profile Founder AC Timothy Ronald yang berbentuk &#8704; yang mengindikasikan for all" 
-            class="TR-profile" 
-            src="assets/channels4_profile.jpg">
-            </a>
-          </div>
-          <div>Timothy Ronald</div>
-        </div>
-
-        <div class="profile">
-          <div>
-            <a href="https://www.youtube.com/@akademicrypto" target="_blank">
-              <img alt="Logo Akademi crypto yang berbentuk &#8704; yang menandakan for all" 
-              class="AC-profile" 
+          <div class="profile">
+            <div>
+              <a href="https://www.youtube.com/@TimothyRonald" target="_blank">
+              <img alt="foto profile Founder AC Timothy Ronald yang berbentuk &#8704; yang mengindikasikan for all" 
+              class="TR-profile" 
               src="assets/channels4_profile.jpg">
-            </a>
+              </a>
+            </div>
+            <div>Timothy Ronald</div>
           </div>
-          <div>Akademi Crypto</div>
-        </div>
-
-        <div class="profile">
-          <div>
-              <a href="https://x.com/Kalimasada97" target="_blank">
-              <img alt="foto profile co-founder AC Kalimasada yang berbentuk &#8704; dan berarti for all " 
-              class="AVS-profile" 
-              src="assets/channels4_profile.jpg">
-            </a>
+        
+          <div class="profile">
+            <div>
+              <a href="https://www.youtube.com/@akademicrypto" target="_blank">
+                <img alt="Logo Akademi crypto yang berbent      uk &#8704; yang menandakan for all" 
+                class="AC-profile" 
+                src="assets/channels4_profile.jpg">
+              </a>
+            </div>
+            <div>Akademi Crypto</div>
+          </div> 
+          <div class="profile">
+            <div>
+                <a href="https://x.com/Kalimasada97" target="_blank">
+                <img alt="foto profile co-founder AC Kalimasada yang berbentuk &#8704; dan berarti for all " 
+                class="AVS-profile" 
+                src="assets/channels4_profile.jpg">
+              </a>
+            </div>
+            <div class="profile-name4">Kalimasada(AVS)</div>
           </div>
-          <div class="profile-name4">Kalimasada(AVS)</div>
-        </div>
-
+       
         <div class="profile">
           <div>
             <a href="https://www.bitget.com/" target="_blank">
@@ -152,7 +162,7 @@
             <br> meningkatakan pengetahuan saya tentang style position
           </div>
         </div>
-
+        
         </div>
       </main>
     </section>
@@ -171,13 +181,13 @@
         <div class="data-diri">
 
           <div class="data-nama">
-            <label for="nama">Nama <span class="titik-satu">:</span></label>
+            <label class="label-nama" for="nama">Nama <span class="titik-satu">:</span></label>
             <input type="text" id="nama" placeholder="Nama" name="input-nama">
             <p id="error-name"></p>
           </div>
 
           <div class="data-tanggal">
-            <label for="tanggal-lahir">Tanggal Lahir <span class="titik-dua">:</span></label>
+            <label class="label-tanggal" for="tanggal-lahir">Tanggal Lahir <span class="titik-dua">:</span></label>
             <input type="date" id="tanggal-lahir" name="input-tanggal">
             <p id="error-date"></p> 
           </div>
@@ -192,7 +202,7 @@
           </div>
 
           <div class="data-pesan">
-            <label for="pesan">Pesan <span class="titik-empat">:</span></label>
+            <label class="label-pesan" for="pesan">Pesan <span class="titik-empat">:</span></label>
             <input type="text" placeholder="Pesan" id="pesan" name="input-pesan">
           </div>
 
@@ -205,7 +215,7 @@
 
           <section class="keterangan-diri" >
 
-            <div><span>Current time</span> : Sundy June 07 2024  12:04:28 GMT+7</div>
+            <div><span>Current time</span> : Sunday June 07 2024  12:04:28 GMT+7</div>
 
             <div><span>Nama</span> : <span id="hasil-nama"></span></div>
 
@@ -220,32 +230,10 @@
 
     </section>
 
-      <section id="social-media">
-
-      <header>
-        <h1 class="social-media-header">My Social Media</h1>
-      </header>
-
-      <div class="wrapper">
-
-        <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-
-        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-
-        <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
-
-        <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
-
-        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-
-      </div>
-    </section>
-
     <foooter class="footer-container" >
       <div class="developer">Created by Ricki</div>
     </foooter>
 
-    <script src="js/name.js"></script>
     <script src="js/form.js"></script>
   </body>
 </html>

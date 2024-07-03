@@ -20,7 +20,6 @@
 .description {
   color: rgb(114, 114, 114);
   margin-top: 0;
-  font-size: 14px;
   margin-top: 5px;
 }
 
@@ -34,14 +33,7 @@ header p u, a {
   justify-content: space-between;
 }
 
-.youtube-copy,
-.discord-sidebar {
-  width: 500px;
-  margin-top: 50px;
-}
-
 .youtube-copy {
-  margin-left: 85px;
   margin-right: 0;
   border: 2px solid rgb(1, 192, 192);
   border-radius: 20px;
@@ -55,14 +47,11 @@ header p u, a {
 
 .youtube-copy-description {
   font-weight: 500;
-  font-size: 14px;
-  margin-left: 85px;
   margin-top: 5px;
 }
 
 .discord-sidebar {
   margin-left: 0;
-  margin-right: 90px;
   border: 2px solid rgb(1, 192, 192);
   border-radius: 20px;
 }
@@ -75,7 +64,5 @@ header p u, a {
 
 .discord-sidebar-copy-description {
   font-weight: 500;
-  font-size: 14px;
-  margin-right: 85px;
   margin-top: 5px;
 }

@@ -1,0 +1,211 @@
+@media only screen and (min-width: 1200px) {
+  .header-container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .head {
+    margin-top: 90px;
+  }
+
+  .logo-image {
+    margin-left: 34px;
+  }  
+
+  .button1 {
+    padding: 8px 35px;
+  }
+
+  .button2 {
+    padding: 8px 23px;
+  }
+
+  .button3 {
+    padding: 8px 26px;
+  }
+
+  .button4 {
+    padding: 8px 20px;
+    margin-right: 35px;
+  }
+
+  .head,
+  .sub-head {
+    margin-left: 99px;
+  }
+
+  .profile-header {
+    margin-left: 80px;
+  }
+
+  .profile-image {
+    flex-direction: row;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .portofolio-image {
+    flex-direction: row;
+  }
+
+  .youtube-copy,
+  .discord-sidebar {
+    width: 500px;
+    margin-top: 50px;
+  }
+
+  .youtube-copy {
+    margin-left: 85px;
+  }
+
+  .discord-sidebar {
+    margin-right: 90px;
+  }
+
+  .youtube-copy-description {
+    margin-left: 85px;
+  }
+
+  .discord-sidebar-copy-description {
+    margin-right: 90px;
+  }
+
+  .youtube-copy-description,
+  .discord-sidebar-copy-description {
+    font-size: 14px;
+  }
+
+  .data-konten {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .messageus-header {
+    margin-left: 80px;
+    margin-bottom: 60px;
+  }
+
+  .data-nama,
+  .data-tanggal,
+  .data-gender,
+  .data-pesan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .formulir {
+    margin-left: 80px;
+  }
+
+  .data-diri {
+    font-size: 15px;
+  }
+
+  .titik-satu {
+    margin-left: 54px;
+    margin-right: 3px;
+  }
+
+  .titik-dua {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .titik-empat {
+    margin-left: 50px;
+    margin-right: 3px;
+  }
+
+  .data-nama {
+    margin-bottom: 6px;
+  }
+
+  .data-tanggal {
+    margin-bottom: 1px;
+  }
+
+  #nama {
+    padding: 8px 180px 8px 8px;
+  }
+
+  #tanggal-lahir {
+    width: 355px;
+    padding-top: 8px;
+    padding-left: 3px;
+    padding-bottom: 8px;
+  }
+
+  .data-gender {
+    margin-top: 5px;
+    margin-bottom: 7px;
+  }
+
+  #kelamin,
+  #kelamin1 {
+    display: flex;
+    align-items: center;
+  }
+
+  #kelamin {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  #kelamin1 {
+    position: relative;
+    margin-left: 40px;
+    margin-top: -24px;
+  }
+
+  .LL {
+    position: relative;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+
+  .PP {
+    position: relative;
+    margin-top: -24px;
+    margin-left: -20px;
+  }
+
+  .label-pesan {
+    margin-top: -75px;
+  }
+
+  #pesan {
+    padding-top: 6px;
+    padding-bottom: 80px;
+    padding-left: 8px;
+    width: 349px;
+  }
+
+  .submit {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 12px 193px 12px 210px;
+  }
+
+  .keterangan-diri {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-right: 200px;
+    margin-right: 50px;
+  }
+
+  .keterangan-diri div {
+    line-height: 30px;
+  }
+}

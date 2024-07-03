@@ -1,17 +1,18 @@
 .head {
-  margin-top: 109px;
-  margin-left: 99px;
   font-size: 26px;
+  position: absolute;
+  top: 0;
 }
 
 .sub-head {
-  margin-left: 99px;
   font-size: 14px;
   margin-top: 9px;
+  position: absolute;
+  top: 120px;
 }
 
 .content-image {
-  width: 1333px;
-  height: 586px;
+  width: 100%;
   margin-top: 40px;
+  position: relative;
 }

@@ -1,0 +1,160 @@
+@media only screen and (min-width: 600px) {
+  .header-container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .logo-image {
+    margin-left: 15px;
+  }
+
+  .navigation {
+    margin-right: 10px;
+  }
+
+  .head {
+    margin-top: 90px;
+  }
+
+  .head,
+  .sub-head {
+    margin-left: 25px;
+  }
+
+  .profile-header {
+    margin-left: 40px;
+  }
+
+  .profile-image {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .portofolio-image {
+    flex-direction: column;
+  }
+
+  .youtube-copy,
+  .discord-sidebar {
+    width: 500px;
+    margin-top: 35px;
+  }
+
+  .youtube-copy-description,
+  .discord-sidebar-copy-description {
+    font-size: 14px;
+  }
+
+  .data-konten {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .data-nama,
+  .data-tanggal,
+  .data-gender,
+  .data-pesan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .messageus-header {
+    margin-left: 40px;
+    margin-bottom: 15px;
+  }
+
+  .formulir {
+    margin-left: 0px;
+  }
+
+  .data-diri {
+    font-size: 14px;
+  }
+
+  .label-nama,
+  .label-tanggal,
+  .label-pesan {
+    margin-bottom: 5px;
+  }
+
+  .data-nama {
+    margin-bottom: -20px;
+  }
+
+  #nama {
+    padding: 8px 66px 8px 5px;
+  }
+
+  .data-tanggal {
+    margin-bottom: -20px;
+  }
+
+  #tanggal-lahir {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 3px;
+  }
+
+  .data-gender {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  #kelamin {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+  }
+
+  #kelamin1 {
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+  }
+
+  .LL {
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+  }
+
+  .PP {
+    position: absolute;
+    bottom: -15px;
+    left: 25px;
+  }
+
+  #pesan {
+    padding: 6px 0px 60px 8px;
+  }
+
+  .submit {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 89px 5px 89px;
+  }
+
+  .keterangan-diri {
+    font-size: 14px;
+    margin-right: 0;
+    padding: 20px 10px 60px 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  .keterangan-diri div {
+    line-height: 25px;
+  }
+}

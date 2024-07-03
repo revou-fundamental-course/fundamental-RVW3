@@ -3,60 +3,51 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   border-bottom: 1px solid hsl(249, 20%, 11%);
-  top: 0;
-  left: 0;
-  right: 0;
   height: 67px;
-  background-color: hsl(249, 20%, 11%);
+  background-color: white;
+  margin-bottom: 0px;
+  z-index: 1000;
 }
 
 .logo-image {
   border-radius: 100px;
   width: 51px;
   height: 51px;
-  margin-left: 34px;
   border: 1.5px solid white;
 }
 
-nav {
-  width: 100%;
-  max-width: fit-content;
+.navigation {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px 40px;
 }
 
-nav ul {
-  display: flex;
-  gap: 1.25rem;
-  list-style: none;
+.button1,
+.button2,
+.button3,
+.button4 {
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
 }
 
-.link {
+.button1 {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   text-decoration: none;
-  padding: 0.5rem 0.75rem;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fefefe;
-  position: relative;
-  transition: color 0.25s;
-}
-.link:hover {
-  color: hsl(249, 20%, 11%);
+  padding: 8px 35px;
+  z-index: 100;
 }
 
-.link::after {
-  position: absolute;
-  content: "";
-  inset: 0;
-  background-color: #fefefe;
-  scale: 1 0;
-  z-index: -1;
-  transition: 0.45s;
+.button2 {
+  padding: 8px 23px;
+
 }
-.link:hover::after {
-  scale: 1 1;
+
+.button3 {
+  padding: 8px 26px;
+}
+.button4 {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 8px 20px;
 }
