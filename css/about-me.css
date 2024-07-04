@@ -1,0 +1,27 @@
+/*Bagian our profile dari website*/
+#about-me {
+  padding-top: 1px;
+}
+
+.top-line {
+  border: 1px solid rgb(139, 139, 139);
+  margin-bottom: 0;
+
+}
+
+.about-header {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.about-container {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.bottom-line {
+  border: 1px solid rgb(139, 139, 139);
+  margin-top: 80px;
+  margin-bottom: 0px;
+}

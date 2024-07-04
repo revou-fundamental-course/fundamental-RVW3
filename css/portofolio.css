@@ -23,46 +23,14 @@
   margin-top: 5px;
 }
 
-header p u, a {
+#portofolio header p u a {
   color: rgb(54, 54, 54);
 }
 
-.portofolio-image {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.youtube-copy {
-  margin-right: 0;
-  border: 2px solid rgb(1, 192, 192);
-  border-radius: 20px;
-}
-
 .portofolio1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 0;
 }
 
-.youtube-copy-description {
-  font-weight: 500;
-  margin-top: 5px;
-}
-
-.discord-sidebar {
-  margin-left: 0;
-  border: 2px solid rgb(1, 192, 192);
-  border-radius: 20px;
-}
-
-.portofolio2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.discord-sidebar-copy-description {
-  font-weight: 500;
-  margin-top: 5px;
+.previous {
+  margin-top: 10px;
 }

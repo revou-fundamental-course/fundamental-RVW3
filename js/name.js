@@ -1,5 +1,5 @@
 function replacename() {
-  let name = prompt("Nama lo Siapa?")
+  let name = prompt("Masukkan Nama Anda")
   document.getElementById("name").innerHTML = name
 }
 

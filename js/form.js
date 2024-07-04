@@ -16,12 +16,6 @@ function validateForm() {
 
     return false
   }
-
-  if (gender == '') {
-    document.getElementById("error-gender").innerHTML = "Pilih Jenis Kelamin"
-
-    return false
-  }
   
   setName(nama);
   setDate(tanggal);
@@ -43,7 +37,6 @@ function setDate(tanggal) {
 
 function setGender(gender) {
   document.getElementById("hasil-kelamin").innerHTML = gender;
-  document.getElementById("error-gender").innerHTML = ""
 }
 
 

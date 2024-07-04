@@ -1,33 +1,58 @@
 @media only screen and (max-width: 600px) {
   .header-container {
     flex-direction: column;
-    padding-bottom:  135px; 
+    padding-bottom:  80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
   }
 
   .navigation {
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+  }
+
+  .button2 {
+    margin-top: 5px;
+    margin-left: -6px;
+    margin-bottom: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  .button3 {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  .button4 {
+    margin-left: -5px;
+  }
+
+  .content-image {
+    margin-top: 140px;
+    margin-bottom: -12px;
   }
 
   .head {
-    margin-top: 20px;
+    top: 250px;
+    font-size: 10px;
+    width: 150px;
+    left: 20px;
   }
 
-  .head,
   .sub-head {
-    margin-left: 0px;
+    font-size: 10px;
   }
 
-  .profile-header {
+  .about-header {
     margin-left: 3px;
   }
 
-  .profile-image {
-    flex-direction: column;
-  }
-
-  .profile {
-    margin-bottom: 15px;
+  .about-container {
+    line-height: 25px;
+    padding: 20px;
   }
 
   .description {
@@ -36,17 +61,42 @@
 
   .portofolio-image {
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
-  .youtube-copy,
-  .discord-sidebar {
-    width: 240px;
+  .portofolio1 {
+    width: 258px;
     margin-top: 25px;
   }
 
-  .youtube-copy-description,
-  .discord-sidebar-copy-description {
-    font-size: 12px;
+  .previous {
+    padding: 6px 12px 6px 12px;
+    font-size: 14px;
+    margin-left: -5px;
+    background-color: hsl(249, 20%, 11%);
+    border: 1px solid hsl(249, 20%, 11%);
+    border-radius: 5px;
+    color: white;
+    transition: all 0.35s;
+  }
+
+  .previous:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: hsl(249, 20%, 11%);
+  }
+
+  .next {
+    padding: 6px 20px 6px 20px;
+    font-size: 15px;background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.35s;
+  }
+
+  .next:hover {
+    background-color: hsl(249, 20%, 11%);
+    color: white;
   }
 
   .data-konten {

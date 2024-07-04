@@ -5,9 +5,9 @@
   justify-content: space-between;
   border-bottom: 1px solid hsl(249, 20%, 11%);
   height: 67px;
-  background-color: white;
   margin-bottom: 0px;
   z-index: 1000;
+  background-color: hsl(249, 20%, 11%);
 }
 
 .logo-image {
@@ -25,9 +25,10 @@
 .button2,
 .button3,
 .button4 {
-  border: 1px solid gray;
-  background-color: white;
+  border: none;
+  background-color: hsl(249, 20%, 11%);
   cursor: pointer;
+  font-size: 16px;
 }
 
 .button1 {

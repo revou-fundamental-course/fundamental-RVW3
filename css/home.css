@@ -1,15 +1,14 @@
 .head {
   font-size: 26px;
   position: absolute;
-  top: 0;
+  top: 200px;
+  left: -20px;
 }
 
 .sub-head {
-  font-size: 14px;
-  margin-top: 9px;
-  position: absolute;
-  top: 120px;
+  font-size: 16px;
 }
+
 
 .content-image {
   width: 100%;
