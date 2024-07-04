@@ -1,4 +1,6 @@
-/*Bagian header dari website*/
+/*Style dari bagian header*/
+
+
 .header-container {
   display: flex;
   align-items: center;
@@ -8,18 +10,18 @@
   margin-bottom: 0px;
   z-index: 1000;
   background-color: hsl(249, 20%, 11%);
-}
+} /*Ini adalah kontainer dari header*/
 
 .logo-image {
   border-radius: 100px;
   width: 51px;
   height: 51px;
   border: 1.5px solid white;
-}
+} /*Ini adalah style dari foto profile header */
 
 .navigation {
   display: flex;
-}
+} /*Mencakup keseluruhan bagian navigasi header*/
 
 .button1,
 .button2,
@@ -29,7 +31,7 @@
   background-color: hsl(249, 20%, 11%);
   cursor: pointer;
   font-size: 16px;
-}
+} /*Mencakup keseluruhan dari button yang ada di navigasi header*/
 
 .button1 {
   border-top-left-radius: 3px;
@@ -37,18 +39,18 @@
   text-decoration: none;
   padding: 8px 35px;
   z-index: 100;
-}
+} /*Ini adalah style dari button pertama yang bernama "Home" */
 
 .button2 {
   padding: 8px 23px;
-
-}
+} /*Ini adalah style dari button kedua yang bernama "About me"*/
 
 .button3 {
   padding: 8px 26px;
-}
+} /*Ini adalah style dari button ketiga yang bernama "Portofolio"*/
+
 .button4 {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   padding: 8px 20px;
-}
+} /*Ini adalah style dari button ke empat yang bernama "Message us"*/

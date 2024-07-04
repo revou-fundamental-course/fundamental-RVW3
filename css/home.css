@@ -1,17 +1,19 @@
+/*Style dari bagian home*/
+
 .head {
   font-size: 26px;
   position: absolute;
   top: 200px;
   left: -20px;
-}
+} /*Ini adalah bagian text yang menyapa kamu*/
 
 .sub-head {
   font-size: 16px;
-}
+} /*Ini juga bagian text yang menyapa kamu tapi dengan font size lebih kecil*/
 
 
 .content-image {
   width: 100%;
   margin-top: 40px;
   position: relative;
-}
+} /*Ini adalah bagian background dari home yang berupa foto*/

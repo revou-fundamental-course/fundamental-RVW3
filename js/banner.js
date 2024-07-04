@@ -1,3 +1,5 @@
+//Membuat tools banner autolide
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -13,8 +15,8 @@ function showDivs(n) {
 
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none"; 
-  }
+  } 
 
-
+  //Mengatur supaya ada 1 gambar yang terlihat
   x[slideIndex -1].style.display = "block";
 }
