@@ -1,3 +1,5 @@
+//Membuat validasi dari form
+
 function validateForm() {
   const nama = document.forms['form']['input-nama'].value
   const tanggal = document.forms['form']['input-tanggal'].value

@@ -1,3 +1,5 @@
+/*Mengatur tampilan di lebar device kurang dari 600px*/
+
 @media only screen and (max-width: 600px) {
   .header-container {
     flex-direction: column;
@@ -6,12 +8,12 @@
     top: 0;
     right: 0;
     left: 0;
-  }
+  } /*Menyesuaikan tata letak header*/
 
   .navigation {
     flex-direction: column;
     align-items: center;
-  }
+  } /*Menysuaikan tata letak tombol di navigasi*/
 
   .button2 {
     margin-top: 5px;
@@ -33,14 +35,14 @@
   .content-image {
     margin-top: 140px;
     margin-bottom: -12px;
-  }
+  } /*Menyesuaikan tata letak background yang berupa gambar di bagian home*/
 
   .head {
     top: 250px;
     font-size: 10px;
     width: 150px;
     left: 20px;
-  }
+  } /*Menyesuaikan tata letak header di bagian home*/
 
   .sub-head {
     font-size: 10px;
@@ -48,27 +50,27 @@
 
   .about-header {
     margin-left: 3px;
-  }
+  } /*Menyesuaikan tata letak header di bagian about me*/
 
   .about-container {
     line-height: 25px;
     padding: 20px;
-  }
+  } /*Menyesuaikan ukuran container yang mencakup konten about me*/
 
   .description {
     font-size: 13px;
-  }
+  } /*Menyesuaikan font di sedikit penjelasan di bagian atas portofolio*/
 
   .portofolio-image {
     flex-direction: column;
     display: flex;
     align-items: center;
-  }
+  } /*Menyesuaikan tata letak gambar */
 
   .portofolio1 {
     width: 258px;
     margin-top: 25px;
-  }
+  } /*Menyesuaikan ukuran gambar di bagian portofolio*/
 
   .previous {
     padding: 6px 12px 6px 12px;
@@ -79,7 +81,7 @@
     border-radius: 5px;
     color: white;
     transition: all 0.35s;
-  }
+  } 
 
   .previous:hover {
     background-color: rgba(0, 0, 0, 0);

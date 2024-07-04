@@ -1,27 +1,23 @@
-/*Bagian our profile dari website*/
-#about-me {
-  padding-top: 1px;
-}
+/*style dari bagian about me*/
 
 .top-line {
   border: 1px solid rgb(139, 139, 139);
   margin-bottom: 0;
-
-}
+} /*Mengatur garis lurus ke kanan yang membatasi antara home dan about me*/
 
 .about-header {
   margin-top: 35px;
   margin-bottom: 35px;
-}
+} /*Mengatur bagian text "About Me"*/
 
 .about-container {
   border: 2px solid rgb(0, 0, 0);
   background-color: azure;
   border-radius: 10px;
-}
+} /*Mengatur container dari isi bagian about e*/
 
 .bottom-line {
   border: 1px solid rgb(139, 139, 139);
   margin-top: 80px;
   margin-bottom: 0px;
-}
+} /*Mengatur garis lurus kanan yang membatasi antara about me dengan portofolio*/

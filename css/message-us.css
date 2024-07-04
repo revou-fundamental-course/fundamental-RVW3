@@ -1,50 +1,28 @@
-#message-us {
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
+/*Style dari bagian message us*/
 
 .messageus-header {
   margin-top: 20px;
-}
+} /*Header dari message us*/
 
 .data-konten {
   display: flex;
   justify-content: space-between;
-}
-
-.formulir {
-  margin-right: 0;
-}
-
-.radio {
-  margin-right: 0px;
-}
+} /*Mencakup kesluruhan konten selain message us header*/
 
 #nama {
   border-radius: 5px;
   border: 1px solid gray;
-}
+} /*Mengatur border dari bagian input nama*/
 
 #tanggal-lahir {
   border-radius: 5px;
   border: 1px solid gray;
-}
-
-.LL,
-.PP {
-  margin-bottom: 0;
-}
+} /*Mengatur border dari bagian input tanggal lahir*/
 
 #pesan {
   border-radius: 3px;
   border: 1px solid gray;
-}
-
-
-.submit:hover {
-  color: hsl(214, 20%, 85%);
-  background-color: black;
-}
+} /*Mengatur border dari bagian input jenis kelamin*/
 
 .submit {
   font-weight: bold;
@@ -55,7 +33,12 @@
   cursor: pointer;
   position: relative;
   transition: all 0.3s;
-}
+} /*Mengatur style dari tombol submit*/
+
+.submit:hover {
+  color: hsl(214, 20%, 85%);
+  background-color: black;
+} /*Mengatur style dari tombol saat cursor diarahkan ke tombol*/
 
 .submit::after {
   content: "";
@@ -66,34 +49,30 @@
   translate: 6px 6px;
   transition: 0.25s;
   z-index: -1;
-}
+} /*Digunakan untur mengatur bagian bagian bawah 
+dari tombol submit yang menyerupai bayangan*/
 
 .submit:hover::after {
   translate: 0;
-}
+} /*Digunakan untuk menghilangkan bagian bawah 
+yang menyerupai bayangan dari tombol submit*/
 
 #kelamin {
   accent-color: blue;
-}
+} /*Digunakan untuk mengatur warna dari tombol input kelamin laki-laki*/
 
 #kelamin1 {
   accent-color: red;
-}
+} /*Digunakan untuk mengatur warna tombol dari input kelamin perempuan*/
 
 .keterangan-diri {
   border: 1px solid rgb(0, 0, 0);
   background-color: lightblue;
   border-radius: 5px;
   color: black;
-}
+  font-weight: 500;
+} /*Mengatur style dari kolom hasil input*/
 
 .keterangan-diri span {
   font-weight: bold;
-}
-
-#hasil-nama,
-#hasil-tanggal,
-#hasil-kelamin,
-#hasil-pesan {
-  font-weight: 500;
-}
+} /*Mengatur font dari elemen <span> yang terdapat di kolom hasil input*/
